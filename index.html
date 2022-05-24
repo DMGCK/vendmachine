@@ -15,20 +15,35 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select">
-      <a class="navbar-brand ms-3" href="#">
-        <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
+    <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select ">
+      <a class="navbar-brand ms-3 d-flex justify-content-between w-100" href="#">
+        <div>
+
+          <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
           loading="lazy">
-        <span class="ms-2">vendmachine</span>
+          <span class="ms-2">vendmachine</span>
+        </div>
+        <span>Money: <span id="money">0</span></span>
       </a>
     </nav>
   </header>
   <main>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
-        </div>
+      <div id="vendor" class="row">
+        
+
+        <!-- Template -->
+        <!-- <div class="col-md-4  my-2">
+          <div class="p-2 text-center bg-dark text-light rounded shadow mx-1 position-relative">
+            <h3 id="item-name">Name</h3>
+            <img id="item-img" class="img-fluid rounded p-1" src=".//assets/img/extra salty chips.jpeg" alt="">
+            <div id="stock" class="stock opacity-75 rounded border-dark border-4 bg-light text-dark w-25 position-absolute">Stock</div>
+            <h4 id="price" onclick="buy()" class="btn btn-outline-danger btn-light">price</h4>
+          </div>
+        </div> -->
+
+                
+
       </div>
     </div>
   </main>

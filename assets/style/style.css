@@ -1,1 +1,12 @@
 /* BASIC STYLES HERE */
+
+.itemcard {
+  height: 50vh;
+  max-height: 300px;
+}
+
+img {
+  object-fit: cover;
+  max-height: 150px;
+  display: inline-block;
+}
